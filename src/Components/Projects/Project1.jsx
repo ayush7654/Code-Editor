@@ -19,7 +19,7 @@ const items=[
         description:'With its user-friendly design and extensive database of films, CINEQuest serves as both a movie tracking tool and a vibrant social platform for sharing film experiences.Users can discover new films through curated recommendations and engage in discussions about their favorite movies',
         tools:['React','TypeScript','Tailwind CSS'],
         link:"https://github.com/ayush7654/CineQuest",
-        live:""
+        live:"https://cine-quest-two.vercel.app/"
      },
     {
         id:2,
@@ -41,7 +41,7 @@ const items=[
         description:'A simple and lightweight code editor designed for developers, offering real-time syntax highlighting, multi-language support, and seamless integration with Git. Boost productivity with customizable themes and keyboard shortcuts. Perfect for coding on the go or in a full development environment.',
         tools:['React','JavaScript','CSS'],
         link:"https://github.com/ayush7654/CodeEditor",
-        live:""
+        live:"https://code-editor-ivory-alpha.vercel.app/"
     },
 ]
 

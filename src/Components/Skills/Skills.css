@@ -1,0 +1,453 @@
+.skills{
+    
+   
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    
+
+  
+}
+ #stars-div{
+  background: linear-gradient(to right, #0a0010, #1a0c36bc, #0a0010);
+} 
+.skills-Container{   
+    display: flex;
+   
+    height: 100vh;
+
+    position: relative; 
+}
+
+.circle-container {
+  border: 0px solid red ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:center;
+ z-index: 1;
+    width: 80%;
+    height: 80%;
+   gap:5%;
+    margin: auto;
+  }
+
+  .skill-title-container{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 0px rgb(44, 113, 148) solid;
+    z-index: 1;
+    align-items: center;
+    
+  }
+  .skill-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    border: 0px red solid;
+    
+  
+  }
+  .animation-home{
+   border: 0px red solid;
+    display: flex;
+    align-items: start;
+    height: 8rem;
+    width: 7rem;
+    
+
+}
+
+  .skill-plates{
+    border: 0px blue solid;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap:1rem;
+  }
+
+  .skills-animation{
+    border: 0px solid rgb(180, 26, 26);
+   display: flex;
+   flex-direction:column-reverse;
+   align-items: center;
+   justify-content:start;
+   height: 100%;
+   gap: 0px;
+  }
+.skills-object{
+ display: flex;
+ align-items: flex-end;
+ justify-content: end;
+  border: 2px solid white;
+ 
+  left: 220px;
+  bottom: 0px;
+
+}
+#skills-middle{
+ position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  width: 150rem;
+  height:150rem;
+  border: 0px red solid;
+  border-radius: 50%;
+  top:75%;
+ 
+  
+
+  
+  
+  background: linear-gradient(to right, #000000 20%, #2b0b3d00 55%, #000000 70%); 
+  box-shadow: inset 0px 20px 60px rgba(86, 143, 164, 0.729);
+  
+   
+
+}
+  .skills-title{
+   
+   
+
+    font-size: 80px;
+    border: 0px solid white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: 400;
+   
+   
+
+  }
+  
+  .circle-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    
+    border-radius: 1rem;
+    width: 8rem;
+    height: 8rem;
+    /* Ensure the content inside does not rotate */
+    transform-origin: center center;
+    user-select: none;
+    box-shadow: 20px 10px 25px rgba(0, 0, 0, 0.341);
+   background: rgba(172, 205, 203, 0.175);
+    
+  }
+  
+  
+ 
+  
+
+
+  .planet1{
+    position: absolute;
+    width: 12rem;
+    left: 40%;
+    top:20%;
+   
+    opacity: .2;
+  }
+  
+  .planet2{
+    
+
+    position: absolute;
+    width: 25rem;
+    right: 25%;
+    bottom:0;
+    
+    opacity: .2;
+   
+
+  }
+  .planet3{
+   
+    position: absolute;
+    width: 20rem;
+    right:20%;
+    top:40%;
+
+    opacity: .2;
+
+  }
+  .planet4{
+    position: absolute;
+    width:20rem;
+    left:40%;
+    bottom:10%;
+   
+    opacity: .3;
+
+  }
+  .planet5{
+    position: absolute;
+    width: 15rem;
+    left: 30%;
+    top:80%;
+   
+    opacity: .1;
+
+  }
+ #CSSlogo{
+   
+   
+    
+  
+    padding: 1rem;
+    
+    
+
+ }
+ #CSSlogo:hover{
+
+  background: radial-gradient(circle at 50% 50%, #c6c6ce7e, #477ad88e 60%, #1f1d1d57 90%); 
+   box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+
+ }
+
+ #HTMLlogo{
+    
+    
+    padding: 1rem;
+   
+ }
+
+ #HTMLlogo:hover{
+ 
+
+  background: radial-gradient(circle at 50% 50%, #c6c6ce7e, #c98037a3 60%,  #1f1d1d57 90%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+        
+ }
+
+  #JSlogo{
+  
+   
+    padding: 1.5rem;
+   
+  }
+
+  #JSlogo:hover{
+
+
+  background: radial-gradient(circle at 50% 50%, #c6c6cecb, #b7b02db5 60%,  #050401c8 95%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+
+  }
+  
+  #Reactlogo{
+
+    padding:1.5rem;
+ 
+  }
+
+  #Reactlogo:hover{
+
+
+  background: radial-gradient(circle at 50% 50%, #c6c6ce7e, #3e98be88 60%,  #1f1d1d57 90%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+
+  }
+
+  #TSlogo{
+   
+    
+   padding: 1.7rem;
+   
+  }
+
+  #TSlogo:hover{
+
+
+  background: radial-gradient(circle at 50% 50%, #c6c6ce7e, #3772acb0 60%,  #1f1d1d57 90%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+
+  }
+
+  #Tailwindlogo{
+    
+   
+   
+   
+   padding: .5rem;
+  
+  }
+
+  #Tailwindlogo:hover{
+
+
+  background: radial-gradient(circle at 50% 50%,  #c6c6ce7e,  #12866b93 60%,  #1f1d1d57 90%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+  }
+
+  #Firebaselogo{
+    
+    
+    
+   padding: .5rem;
+     
+  }
+
+  #Firebaselogo:hover{
+ 
+
+  
+  background: radial-gradient(circle at 50% 50%, #c6c6ce7e,#d7a12c97 60%,  #1f1d1d57 90%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+
+  }
+
+  #Routerlogo{
+ 
+    
+   
+   padding:.5rem;
+   
+
+  }
+
+  #Routerlogo:hover{
+
+
+  background: radial-gradient(circle at 50% 50%, #c6c6ce7e, #b2340bab 60%,  #1f1d1d57 90%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+  }
+
+  #Gitlogo{
+   
+  
+   padding: .5rem;
+   
+
+  }
+
+  #Gitlogo:hover{
+ 
+
+    
+  background: radial-gradient(circle at 50% 50%, #c6c6ce7e,#bc6b15a9 60%,  #1f1d1d57 90%); 
+  box-shadow: 0px 0px 25px rgba(95, 180, 183, 0.638) ; 
+  }
+
+
+
+
+
+
+
+
+@media (max-width:526px){
+   
+  .circle-container {
+ 
+     gap:1%;
+     
+    }
+   
+
+    #skills-middle{
+      
+       width:25rem ;
+       height:25rem ;
+     
+       top:60%; 
+       opacity: .8;
+    
+     }
+     .skill-plates{
+    
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+    }
+
+    .skill-title-container{
+      padding-left:2.5rem;
+      display: flex;
+      flex-direction: row;
+    
+    
+      justify-content: center;
+    }
+    .skill-title{
+     
+      font-size: 2rem;
+      letter-spacing: 1rem;
+    
+    }
+    .animation-home{
+    
+      height: 5rem;
+      width: 3rem;
+      
+  
+  }
+
+    .circle-item {
+     
+      width: 6rem;
+      height: 6rem;
+
+     
+      
+    }
+    
+      
+  .planet1{
+    left: 50%;
+
+  }
+  
+  .planet2{
+    
+
+    width: 15rem;
+    right: 70%;
+    bottom:60%;
+    
+    opacity: .1;
+   
+
+  }
+  .planet3{
+   
+   
+    width: 15rem;
+    right:60%;
+    top:20%;
+
+    opacity: .2;
+
+  }
+  .planet4{
+    
+    width:20rem;
+    left:80%;
+    bottom:10%;
+   
+    opacity: .2;
+
+  }
+  .planet5{
+
+    width: 15rem;
+    left: -60%;
+    top:60%;
+   
+    opacity: .2;
+
+  }
+    
+   
+} 

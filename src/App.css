@@ -1,0 +1,45 @@
+
+html{
+ scroll-snap-type: y mandatory;
+ scroll-behavior: smooth ;
+ overflow-x: hidden;
+ 
+
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section{
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+body{
+  background-color: #0c0c1d ;
+  color:lightgray
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+button{
+  background-color: aliceblue;
+}
+
+#stars-div{
+  background: linear-gradient(to right, #0a0010, #1a0c36bc, #0a0010);
+  z-index: -1;
+}
+#Homepage{
+  position: relative;
+}
+
+#Skills{
+  height: 100vh;
+}
+
+

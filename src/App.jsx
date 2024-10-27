@@ -47,8 +47,8 @@ function App() {
    
 
   return (
-    <div >
-      <div>
+    <div className='' >
+      
       <div className='w-full h-[200%] absolute inset-0' id='stars-div'>
 <Canvas camera={{ position: [0, 0, 1] }}>
       <Stars  />
@@ -64,7 +64,7 @@ function App() {
        <section id="Skills" className=''>
         <Skills/>
         </section> 
-      </div>
+     
     
        
 

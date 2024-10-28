@@ -198,6 +198,15 @@
     opacity: .1;
 
   }
+
+  .planet4-sm{
+    display: hidden;
+  }
+
+  .planet3-sm{
+   display: hidden;
+  }
+
  #CSSlogo{
    
    
@@ -447,6 +456,126 @@
    
     opacity: .2;
 
+  }
+    
+   
+} 
+
+@media (max-width:350px){
+   
+
+   
+
+    #skills-middle{
+      
+       width:25rem ;
+       height:25rem ;
+     
+       top:60%; 
+       opacity: .8;
+    
+     }
+     .skill-plates{
+    
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+    }
+
+    .skill-title-container{
+      padding-left:2.5rem;
+      display: flex;
+      flex-direction: row;
+    
+    
+      justify-content: center;
+    }
+    .skill-title{
+     
+      font-size: 2rem;
+      letter-spacing: 1rem;
+    
+    }
+    .animation-home{
+    
+      height: 5rem;
+      width: 3rem;
+      
+  
+  }
+
+    .circle-item {
+     
+      width: 6rem;
+      height: 6rem;
+
+     
+      
+    }
+    
+      
+  .planet1{
+    left: 50%;
+
+  }
+  
+  .planet2{
+    
+
+    width: 15rem;
+    right: 70%;
+    bottom:60%;
+    
+    opacity: .1;
+   
+
+  }
+  .planet3{
+   
+   
+    width: 15rem;
+    right:60%;
+    top:20%;
+
+    opacity: .2;
+
+  }
+  .planet4{
+    
+    width:20rem;
+    left:10%;
+    bottom:10%;
+   
+    opacity: .2;
+
+  }
+  .planet5{
+
+    width: 15rem;
+    left: -60%;
+    top:60%;
+   
+    opacity: .2;
+
+  }
+
+  .planet4-sm{
+    position: absolute;
+    width:12rem;
+    left:50%;
+    bottom:30%;
+   
+    opacity: .2;
+  }
+
+  .planet3-sm{
+    position: absolute;
+    width: 12rem;
+    right:70%;
+    top:30%;
+
+    opacity: .2;
   }
     
    

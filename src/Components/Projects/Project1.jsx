@@ -1,4 +1,4 @@
-import {useRef} from 'react'
+import {useRef , useState} from 'react'
 import { motion , useScroll, useSpring, useTransform} from 'framer-motion'
 import { Canvas } from "@react-three/fiber";
 import { Item7 } from "../../Item7";
@@ -47,6 +47,8 @@ const items=[
 
 const Single=({item})=>{
 
+    const[clickedImg,setClickedImg]= useState('')
+
    
 
     return (
@@ -54,13 +56,14 @@ const Single=({item})=>{
      
            
             <div className='project-container'>
+                <div className={clickedImg?'modal-overlay':'modal-overlay-hidden'}></div>
                 <div className="project-wrapper">
-                    <div className='project-content'>
+                    <div className='project-content' style={{}}>
                     <div className='project-imageContainer' >
                     
-                    <motion.img  viewport={{ once: true }} initial={{scale:1.3}} whileInView={{scale:1}} transition={{duration:1}} whileHover={{scale:1.1,transition:{duration:.5}}}  className='websiteImg' src={item.img}/>
-                    <motion.img viewport={{ once: true }} initial={{scale:1.3}} whileInView={{scale:1}} transition={{duration:1}} whileHover={{scale:1.1,transition:{duration:.5}}} className='websiteImg2' src={item.img2}/>
-                    <motion.img  viewport={{ once: true }} initial={{scale:1.3}} whileInView={{scale:1}} transition={{duration:1}} whileHover={{scale:1.1,transition:{duration:.5}}} className='websiteImg3' src={item.img3}/>
+                    <motion.img  viewport={{ once: true }} initial={{scale:1.3}} whileInView={{scale:1}} transition={{duration:1}} whileHover={{scale:1.1,transition:{duration:.5}}}  className='websiteImg' src={item.img} onClick={()=>setClickedImg(item.img)}/>
+                    <motion.img viewport={{ once: true }} initial={{scale:1.3}} whileInView={{scale:1}} transition={{duration:1}} whileHover={{scale:1.1,transition:{duration:.5}}} className='websiteImg2' src={item.img2} onClick={()=>setClickedImg(item.img2)}/>
+                    <motion.img  viewport={{ once: true }} initial={{scale:1.3}} whileInView={{scale:1}} transition={{duration:1}} whileHover={{scale:1.1,transition:{duration:.5}}} className='websiteImg3' src={item.img3} onClick={()=>setClickedImg(item.img3)}/>
                     </div>
                 <motion.div viewport={{ once: true }}  initial={{opacity:.2}} whileInView={{opacity:1}} transition={{opacity:{duration:1.5,delay:.3}}}  className="textContainer">
                     <div className='textContent'>
@@ -82,6 +85,10 @@ const Single=({item})=>{
                     </div>
               
                 </div>
+               <div className={clickedImg?'enlargedImg':'enlargedImg-hidden'}>
+                <div className='cancel-btn' onClick={()=>setClickedImg('')}>X</div>
+                    <img src={clickedImg}/>
+                </div> 
               
             </div>
 
@@ -126,4 +133,7 @@ export default function Project1() {
     </div>
   )
 }
+
+
+
 

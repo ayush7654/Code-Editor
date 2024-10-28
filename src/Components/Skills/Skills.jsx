@@ -9,18 +9,7 @@ export default function Skills() {
 
 
 
-/* const skills = [
-    { id: 'CSSlogo', name: 'CSS', src: '/css-3-logo.svg', size: '100px', x: -350 },
-    { id: 'HTMLlogo', name: 'HTML', src: '/html-logo.svg', size: '100px', x: 300 },
-    { id: 'JSlogo', name: 'JavaScript', src: '/javascript-logo.svg', size: '100px', x: -360 },
-    { id: 'Reactlogo', name: 'React', src: '/ReactLogo-Photoroom.png', size: '300px', x: 350 },
-    { id: 'TSlogo', name: 'TypeScript', src: '/typescript-logo.svg', size: '120px', x: 100 },
-    { id: 'Tailwindlogo', name: 'Tailwind', src: '/tailwind-logo.svg', size: '100px', x: -400 },
-    { id: 'Firebaselogo', name: 'Firebase', src: '/firebaseLogo2.png', size: '70px', x: 600 },
-    { id: 'Routerlogo', name: 'React Router DOM', src: '/ReactRouterLogo.png', size: '100px', x: -600 },
-    { id: 'Gitlogo', name: 'Git', src: '/gitLogo2.png', size: '80px', x: 0 }
-  ];
- */
+
 
    
   return (
@@ -46,6 +35,16 @@ export default function Skills() {
      
      <img src='/planet5.png' />
      </motion.div>  
+
+     <div  className='planet4-sm'>
+    
+    <img src='/planet4.png' />
+    </div> 
+
+    <div  className='planet3-sm'>
+    
+    <img src='/planet3.png' />
+    </div> 
 
     </div>
   )

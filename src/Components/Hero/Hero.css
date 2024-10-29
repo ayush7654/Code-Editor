@@ -189,12 +189,12 @@
     .hero-title-content-line1,
     .hero-title-content-line2 {
        
-      letter-spacing: .2rem;
+      letter-spacing: .1rem;
       font-size: 5rem;
     }
   
     .hero-title-content-line2 {
-      font-size: 3rem;
+      font-size: 3.3rem;
     }
   
     .hero-line2-A {
@@ -209,5 +209,10 @@
       font-size: 1.2rem;
       letter-spacing: .2rem;
     }
+
+    .animation-title {
+        height: 6.5rem;
+        width: 4rem;
+      }
    
   }

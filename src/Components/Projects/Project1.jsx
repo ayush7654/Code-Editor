@@ -26,7 +26,7 @@ const items=[
         title:"QuickMart",
         img:"QMHome.png",
         img2:"QMStore2.png",
-        img3:"QMDetails.png",
+        img3:"QMDetails3.png",
         description:'QuickMart is a versatile shopping app that offers a wide selection of products. Users can browse items, create shopping lists, and make secure payments. With real-time order tracking and exclusive discounts, QuickMart simplifies the shopping experience for all types of essentials.',
         tools:['React','JavaScript','CSS','Firebase'],
         link:"https://github.com/ayush7654/QuickMart",
